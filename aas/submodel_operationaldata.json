@@ -1,0 +1,56 @@
+{ 
+  "id": "https://thm.de/submodel/robotarm/operationaldata", 
+  "idShort": "OperationalData", 
+  "description": [ 
+    { 
+      "language": "de", 
+      "text": "Betriebsdaten und aktueller Zustand des Roboterarms." 
+    } 
+  ], 
+  "submodelElements": [ 
+    { 
+      "modelType": "Property", 
+      "idShort": "RobotStatus", 
+      "valueType": "xs:string", 
+      "value": "Idle" 
+    }, 
+    { 
+      "modelType": "Property", 
+      "idShort": "CurrentTask", 
+      "valueType": "xs:string", 
+      "value": "No active task" 
+    }, 
+    { 
+      "modelType": "Property", 
+      "idShort": "CurrentPosition", 
+      "valueType": "xs:string", 
+      "value": "Home" 
+    }, 
+    { 
+      "modelType": "Property", 
+      "idShort": "EmergencyStop", 
+      "valueType": "xs:boolean", 
+      "value": "false" 
+    }, 
+    { 
+      "modelType": "Property", 
+      "idShort": "OperatingMode", 
+      "valueType": "xs:string", 
+      "value": "Manual / Automatic" 
+ 
+ 
+    }, 
+    { 
+      "modelType": "Property", 
+      "idShort": "ErrorCode", 
+      "valueType": "xs:string", 
+      "value": "None" 
+    }, 
+    { 
+      "modelType": "Property", 
+      "idShort": "LastCommand", 
+      "valueType": "xs:string", 
+      "value": "None" 
+    } 
+  ] 
+} 
