@@ -1,0 +1,62 @@
+{ 
+  "id": "https://thm.de/submodel/robotarm/skills", 
+  "idShort": "Skills", 
+  "description": [ 
+    { 
+      "language": "de", 
+      "text": "Fähigkeiten des Roboterarms für das Be- und Entladen des 3D-Druckers." 
+    } 
+  ], 
+  "submodelElements": [ 
+    { 
+      "modelType": "Property", 
+      "idShort": "MoveToHome", 
+      "valueType": "xs:string", 
+      "value": "Roboter fährt in die Home-Position." 
+    }, 
+    { 
+      "modelType": "Property", 
+      "idShort": "MoveToPrinter", 
+      "valueType": "xs:string", 
+      "value": "Roboter fährt zur Position des 3D-Druckers." 
+    }, 
+    { 
+      "modelType": "Property", 
+      "idShort": "MoveToStorage", 
+      "valueType": "xs:string", 
+      "value": "Roboter fährt zur Ablage- oder Bereitstellungsposition." 
+    }, 
+    { 
+      "modelType": "Property", 
+      "idShort": "PickPart", 
+      "valueType": "xs:string", 
+      "value": "Roboter greift ein Bauteil." 
+    }, 
+    { 
+      "modelType": "Property", 
+      "idShort": "PlacePart", 
+      "valueType": "xs:string", 
+      "value": "Roboter legt ein Bauteil ab." 
+    }, 
+    { 
+      "modelType": "Property", 
+      "idShort": "LoadPrinter", 
+      "valueType": "xs:string", 
+      "value": "Roboter belädt den 3D-Drucker." 
+    }, 
+    { 
+      "modelType": "Property", 
+      "idShort": "UnloadPrinter", 
+      "valueType": "xs:string", 
+      "value": "Roboter entlädt den 3D-Drucker." 
+    }, 
+    { 
+      "modelType": "Property", 
+      "idShort": "StopRobot", 
+ 
+ 
+      "valueType": "xs:string", 
+      "value": "Roboter stoppt die aktuelle Bewegung." 
+    } 
+  ] 
+} 
