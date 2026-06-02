@@ -1,0 +1,89 @@
+{
+  "id": "https://thm.de/aas/robotarm/001",
+  "idShort": "AAS_RobotArm_001",
+  "description": [
+    {
+      "language": "de",
+      "text": "Asset Administration Shell für einen konstruierten Roboterarm zum Be- und Entladen eines 3D-Druckers innerhalb einer mini-automatisierten Fertigungslinie."
+    }
+  ],
+  "assetInformation": {
+    "assetKind": "Instance",
+    "globalAssetId": "https://thm.de/asset/robotarm/001",
+    "assetType": "Roboterarm"
+  },
+  "submodels": [
+    {
+      "type": "ModelReference",
+      "keys": [
+        {
+          "type": "Submodel",
+          "value": "https://thm.de/submodel/robotarm/identification"
+        }
+      ]
+    },
+    {
+      "type": "ModelReference",
+      "keys": [
+        {
+          "type": "Submodel",
+          "value": "https://thm.de/submodel/robotarm/technicaldata"
+        }
+      ]
+    },
+    {
+      "type": "ModelReference",
+      "keys": [
+        {
+          "type": "Submodel",
+          "value": "https://thm.de/submodel/robotarm/caddata"
+        }
+      ]
+    },
+    {
+      "type": "ModelReference",
+      "keys": [
+        {
+          "type": "Submodel",
+          "value": "https://thm.de/submodel/robotarm/constructiondata"
+        }
+      ]
+    },
+    {
+      "type": "ModelReference",
+      "keys": [
+        {
+          "type": "Submodel",
+          "value": "https://thm.de/submodel/robotarm/electricalcomponents"
+        }
+      ]
+    },
+    {
+      "type": "ModelReference",
+      "keys": [
+        {
+          "type": "Submodel",
+          "value": "https://thm.de/submodel/robotarm/operationaldata"
+        }
+      ]
+    },
+    {
+      "type": "ModelReference",
+      "keys": [
+        {
+          "type": "Submodel",
+          "value": "https://thm.de/submodel/robotarm/skills"
+        }
+      ]
+    },
+    {
+      "type": "ModelReference",
+      "keys": [
+        {
+          "type": "Submodel",
+          "value": "https://thm.de/submodel/robotarm/documentation"
+        }
+      ]
+    }
+  ]
+}
