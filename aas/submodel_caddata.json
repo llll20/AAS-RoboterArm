@@ -1,0 +1,48 @@
+{
+  "id": "https://thm.de/submodel/robotarm/caddata",
+  "idShort": "CADData",
+  "description": [
+    {
+      "language": "de",
+      "text": "CAD-Daten und Onshape-Referenz des Roboterarms."
+    }
+  ],
+  "submodelElements": [
+    {
+      "modelType": "Property",
+      "idShort": "CADSystem",
+      "valueType": "xs:string",
+      "value": "Onshape"
+    },
+    {
+      "modelType": "Property",
+      "idShort": "CADModelName",
+      "valueType": "xs:string",
+      "value": "Assembly Projekt Roboter"
+    },
+    {
+      "modelType": "Property",
+      "idShort": "OnshapeDocumentUrl",
+      "valueType": "xs:string",
+      "value": "https://cad.onshape.com/documents/179d58f40fe9da2f07b17d0b/w/f60b32ffc3428d290178b43e/e/02327ac8cfe85e37e2bc1ade"
+    },
+    {
+      "modelType": "Property",
+      "idShort": "MainAssemblyFile",
+      "valueType": "xs:string",
+      "value": "assembly_Projekt_Roboter.prt"
+    },
+    {
+      "modelType": "Property",
+      "idShort": "CADAccessType",
+      "valueType": "xs:string",
+      "value": "Externe Referenz über Onshape-Link"
+    },
+    {
+      "modelType": "Property",
+      "idShort": "CADPurpose",
+      "valueType": "xs:string",
+      "value": "Konstruktive und geometrische Beschreibung des Roboterarms"
+    }
+  ]
+}
