@@ -1,0 +1,55 @@
+{ 
+  "id": "https://thm.de/submodel/robotarm/technicaldata", 
+  "idShort": "TechnicalData", 
+  "description": [ 
+    { 
+      "language": "de", 
+      "text": "Technische Kenndaten des Roboterarms." 
+    } 
+  ], 
+  "submodelElements": [ 
+    { 
+      "modelType": "Property", 
+      "idShort": "RobotType", 
+      "valueType": "xs:string", 
+      "value": "Servoangetriebener Roboterarm" 
+    }, 
+    { 
+      "modelType": "Property", 
+      "idShort": "DriveTechnology", 
+      "valueType": "xs:string", 
+      "value": "Servomotoren" 
+    }, 
+    { 
+      "modelType": "Property", 
+      "idShort": "Controller", 
+      "valueType": "xs:string", 
+      "value": "ESP32" 
+    }, 
+    { 
+      "modelType": "Property", 
+      "idShort": "PowerSupply", 
+      "valueType": "xs:string", 
+      "value": "6 V und 12 V Netzteile" 
+    }, 
+    { 
+      "modelType": "Property", 
+      "idShort": "MainStructure", 
+      "valueType": "xs:string", 
+      "value": "Bodenplatte, Rohrprofile, Drehachsen, Halterungen und Stützen" 
+    }, 
+    { 
+      "modelType": "Property", 
+      "idShort": "EndEffector", 
+      "valueType": "xs:string", 
+      "value": "Greif- oder Haltemechanismus zum Bewegen von Bauteilen" 
+    }, 
+    { 
+      "modelType": "Property", 
+      "idShort": "MainTask", 
+      "valueType": "xs:string", 
+      "value": "Automatisches Be- und Entladen eines 3D-Druckers" 
+    } 
+  ] 
+} 
+6. Submodel: 
