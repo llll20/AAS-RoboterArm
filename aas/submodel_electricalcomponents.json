@@ -1,0 +1,86 @@
+{ 
+  "id": "https://thm.de/submodel/robotarm/electricalcomponents", 
+  "idShort": "ElectricalComponents", 
+  "description": [ 
+    { 
+      "language": "de", 
+      "text": "Elektrische Komponenten und Antriebselemente des Roboterarms." 
+    } 
+  ], 
+  "submodelElements": [ 
+    { 
+      "modelType": "SubmodelElementCollection", 
+      "idShort": "Controller", 
+      "value": [ 
+        { 
+          "modelType": "Property", 
+          "idShort": "ControllerBoard", 
+          "valueType": "xs:string", 
+          "value": "ESP32.prt" 
+        }, 
+        { 
+          "modelType": "Property", 
+          "idShort": "ControllerFunction", 
+          "valueType": "xs:string", 
+          "value": "Ansteuerung der Servomotoren und Verarbeitung von Steuerbefehlen" 
+        } 
+      ] 
+    }, 
+    { 
+      "modelType": "SubmodelElementCollection", 
+      "idShort": "PowerSupply", 
+      "value": [ 
+        { 
+          "modelType": "Property", 
+          "idShort": "PowerSupply6V", 
+          "valueType": "xs:string", 
+          "value": "Netzteil_6V.prt" 
+        }, 
+        { 
+          "modelType": "Property", 
+          "idShort": "PowerSupply12V", 
+          "valueType": "xs:string", 
+          "value": "Netzteil_12V.prt" 
+        } 
+      ] 
+    }, 
+    { 
+      "modelType": "SubmodelElementCollection", 
+      "idShort": "ServoMotors", 
+      "value": [ 
+        { 
+          "modelType": "Property", 
+          "idShort": "Servo20kg270", 
+ 
+ 
+          "valueType": "xs:string", 
+          "value": "Servo_20kg_270°.prt" 
+        }, 
+        { 
+          "modelType": "Property", 
+          "idShort": "Servo35kg270", 
+          "valueType": "xs:string", 
+          "value": "Servo_35kg_270°.prt" 
+        }, 
+        { 
+          "modelType": "Property", 
+          "idShort": "Servo35kgStern", 
+          "valueType": "xs:string", 
+          "value": "Servo_35kg_Stern.prt" 
+        }, 
+        { 
+          "modelType": "Property", 
+          "idShort": "Servo150kg270", 
+          "valueType": "xs:string", 
+          "value": "Servo_150kg_270°.prt" 
+        }, 
+        { 
+          "modelType": "Property", 
+          "idShort": "Servo150kgRaeder", 
+          "valueType": "xs:string", 
+          "value": "Servo_150kg_Räder.prt" 
+        } 
+      ] 
+    } 
+  ] 
+}
