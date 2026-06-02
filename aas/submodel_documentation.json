@@ -1,0 +1,49 @@
+{ 
+  "id": "https://thm.de/submodel/robotarm/documentation", 
+  "idShort": "Documentation", 
+  "description": [ 
+    { 
+      "language": "de", 
+      "text": "Dokumentation des Roboterarms." 
+    } 
+  ], 
+  "submodelElements": [ 
+    { 
+      "modelType": "Property", 
+      "idShort": "DesignDescription", 
+      "valueType": "xs:string", 
+      "value": "Der Roboterarm wurde konstruiert, um Bauteile im Umfeld eines 3D-Druckers zu bewegen." 
+    }, 
+    { 
+      "modelType": "Property", 
+      "idShort": "CADModelReference", 
+      "valueType": "xs:string", 
+      "value": "Das CAD-Modell ist im Submodell CADData über den Onshape-Link referenziert." 
+    }, 
+    { 
+      "modelType": "Property", 
+      "idShort": "MechanicalDescription", 
+      "valueType": "xs:string", 
+      "value": "Die mechanische Struktur besteht aus Bodenplatte, Rohrprofilen, Drehachsen, Halterungen, Lagern, 
+Klemmen und Stützen." 
+    }, 
+    { 
+      "modelType": "Property", 
+      "idShort": "ElectricalDescription", 
+      "valueType": "xs:string", 
+      "value": "Die elektrische Struktur besteht aus ESP32, Netzteilen und mehreren Servomotoren." 
+    }, 
+    { 
+      "modelType": "Property", 
+      "idShort": "SafetyInstructions", 
+      "valueType": "xs:string", 
+      "value": "Während der Bewegung darf nicht in den Arbeitsbereich des Roboters gegriffen werden." 
+    }, 
+    { 
+      "modelType": "Property", 
+      "idShort": "MaintenanceInformation", 
+      "valueType": "xs:string", 
+      "value": "Regelmäßige Kontrolle der Gelenke, Befestigungen, Greifmechanik und elektrischen Verbindungen." 
+    } 
+  ] 
+}
