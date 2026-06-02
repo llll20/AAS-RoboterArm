@@ -1,0 +1,48 @@
+{
+  "id": "https://thm.de/submodel/robotarm/identification",
+  "idShort": "Identification",
+  "description": [
+    {
+      "language": "de",
+      "text": "Allgemeine Identifikationsdaten des konstruierten Roboterarms."
+    }
+  ],
+  "submodelElements": [
+    {
+      "modelType": "Property",
+      "idShort": "AssetName",
+      "valueType": "xs:string",
+      "value": "Roboterarm für 3D-Drucker"
+    },
+    {
+      "modelType": "Property",
+      "idShort": "AssetType",
+      "valueType": "xs:string",
+      "value": "Einfacher Roboterarm"
+    },
+    {
+      "modelType": "Property",
+      "idShort": "AssetFunction",
+      "valueType": "xs:string",
+      "value": "Be- und Entladen eines 3D-Druckers"
+    },
+    {
+      "modelType": "Property",
+      "idShort": "ProjectContext",
+      "valueType": "xs:string",
+      "value": "Mini-automatisierte Fertigungslinie auf Basis der Asset Administration Shell"
+    },
+    {
+      "modelType": "Property",
+      "idShort": "Location",
+      "valueType": "xs:string",
+      "value": "NPE-Labor"
+    },
+    {
+      "modelType": "Property",
+      "idShort": "AssetRole",
+      "valueType": "xs:string",
+      "value": "Handhabungssystem zwischen Ablageposition und 3D-Drucker"
+    }
+  ]
+}
