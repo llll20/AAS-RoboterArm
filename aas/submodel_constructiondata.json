@@ -1,0 +1,204 @@
+{ 
+  "id": "https://thm.de/submodel/robotarm/constructiondata", 
+  "idShort": "ConstructionData", 
+  "description": [ 
+    { 
+      "language": "de", 
+      "text": "Mechanische Konstruktionsdaten und CAD-Bauteile des Roboterarms." 
+    } 
+  ], 
+  "submodelElements": [ 
+    { 
+      "modelType": "SubmodelElementCollection", 
+      "idShort": "BaseStructure", 
+      "value": [ 
+        { 
+          "modelType": "Property", 
+          "idShort": "Bodenplatte", 
+          "valueType": "xs:string", 
+          "value": "Bodenplatte.prt" 
+        }, 
+        { 
+          "modelType": "Property", 
+          "idShort": "BodenplatteDeckel", 
+          "valueType": "xs:string", 
+          "value": "Bodenplatte_Deckel.prt" 
+        }, 
+        { 
+          "modelType": "Property", 
+          "idShort": "BodenplatteRand", 
+          "valueType": "xs:string", 
+          "value": "Bodenplatte_Rand.prt" 
+        }, 
+        { 
+ 
+ 
+          "modelType": "Property", 
+          "idShort": "Stuetzen", 
+          "valueType": "xs:string", 
+          "value": "Stützen.prt" 
+        } 
+      ] 
+    }, 
+    { 
+      "modelType": "SubmodelElementCollection", 
+      "idShort": "ArmStructure", 
+      "value": [ 
+        { 
+          "modelType": "Property", 
+          "idShort": "Rohrprofil1", 
+          "valueType": "xs:string", 
+          "value": "29.5x29.5_Rohrprofil_1.prt" 
+        }, 
+        { 
+          "modelType": "Property", 
+          "idShort": "Rohrprofil2", 
+          "valueType": "xs:string", 
+          "value": "29.5x29.5_Rohrprofil_2.prt" 
+        }, 
+        { 
+          "modelType": "Property", 
+          "idShort": "Achse3Ohne25kg", 
+          "valueType": "xs:string", 
+          "value": "Achse_3_ohne25kg.prt" 
+        } 
+      ] 
+    }, 
+    { 
+      "modelType": "SubmodelElementCollection", 
+      "idShort": "RotationalAxes", 
+      "value": [ 
+        { 
+          "modelType": "Property", 
+          "idShort": "Drehachse1", 
+          "valueType": "xs:string", 
+          "value": "Drehachse.prt" 
+        }, 
+        { 
+          "modelType": "Property", 
+          "idShort": "Drehachse2", 
+          "valueType": "xs:string", 
+          "value": "Drehachse_2.prt" 
+        }, 
+        { 
+          "modelType": "Property", 
+          "idShort": "Drehachse3", 
+          "valueType": "xs:string", 
+          "value": "Drehachse_3.prt" 
+        } 
+      ] 
+    }, 
+    { 
+      "modelType": "SubmodelElementCollection", 
+      "idShort": "Bearings", 
+      "value": [ 
+        { 
+          "modelType": "Property", 
+          "idShort": "AxialBearing", 
+          "valueType": "xs:string", 
+          "value": "Axiallager_60x85x17.prt" 
+        }, 
+        { 
+          "modelType": "Property", 
+          "idShort": "AxialNeedleBearing", 
+          "valueType": "xs:string", 
+          "value": "Axialnadellager_35x20x4.prt" 
+        } 
+      ] 
+    }, 
+    { 
+ 
+ 
+      "modelType": "SubmodelElementCollection", 
+      "idShort": "BracketsAndHolders", 
+      "value": [ 
+        { 
+          "modelType": "Property", 
+          "idShort": "BuegelGross", 
+          "valueType": "xs:string", 
+          "value": "Bügel_Groß.prt" 
+        }, 
+        { 
+          "modelType": "Property", 
+          "idShort": "BuegelKlein", 
+          "valueType": "xs:string", 
+          "value": "Bügel_Klein.prt" 
+        }, 
+        { 
+          "modelType": "Property", 
+          "idShort": "MotorMounting", 
+          "valueType": "xs:string", 
+          "value": "Befestigung_Motor_2.prt" 
+        }, 
+        { 
+          "modelType": "Property", 
+          "idShort": "Clamp150kg", 
+          "valueType": "xs:string", 
+          "value": "Klemme_150kg.prt" 
+        }, 
+        { 
+          "modelType": "Property", 
+          "idShort": "RingHolder150kg", 
+          "valueType": "xs:string", 
+          "value": "Ring_Halterung_150kg.prt" 
+        } 
+      ] 
+    }, 
+    { 
+      "modelType": "SubmodelElementCollection", 
+      "idShort": "ServoMounts", 
+      "value": [ 
+        { 
+          "modelType": "Property", 
+          "idShort": "HalterungServo25kg2", 
+          "valueType": "xs:string", 
+          "value": "Halterung_Servo_25kg_2.prt" 
+        }, 
+        { 
+          "modelType": "Property", 
+          "idShort": "HalterungServo35kg4", 
+          "valueType": "xs:string", 
+          "value": "Halterung_Servo_35kg_4.prt" 
+        }, 
+        { 
+          "modelType": "Property", 
+          "idShort": "HalterungServo35kg5", 
+          "valueType": "xs:string", 
+          "value": "Halterung_Servo_35kg_5.prt" 
+        }, 
+        { 
+          "modelType": "Property", 
+          "idShort": "HalterungServo150kg1", 
+          "valueType": "xs:string", 
+          "value": "Halterung_Servo_150kg_1.prt" 
+        }, 
+        { 
+          "modelType": "Property", 
+          "idShort": "HalterungServo150kg2", 
+          "valueType": "xs:string", 
+          "value": "Halterung_Servo_150kg_2.prt" 
+        } 
+      ] 
+    }, 
+    { 
+      "modelType": "SubmodelElementCollection", 
+      "idShort": "PotiAndAdapterParts", 
+ 
+ 
+      "value": [ 
+        { 
+          "modelType": "Property", 
+          "idShort": "RadPotiGegen", 
+          "valueType": "xs:string", 
+          "value": "Rad-Poti-gegen.prt" 
+        }, 
+        { 
+          "modelType": "Property", 
+          "idShort": "RadPotiGegenGross", 
+          "valueType": "xs:string", 
+          "value": "Rad-Poti-gegen-groß.prt" 
+        } 
+      ] 
+    } 
+  ] 
+} 
